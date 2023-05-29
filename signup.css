@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(43, 44, 48);
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+  }
+
+  #logo{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 5px 0 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: rgb(100, 5, 11);;
+  }
+
+  h1{
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+main{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 5px;
+    font-size: 16px;
+
+    color: #fff;
+    background-color: rgb(100, 5, 11);
+  }
+
+  .name, .surname, .username, .email, .password, .confirm_password, .fileupload{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+
+form img{
+    opacity: 0;
+    width: 10px;
+    margin-right: 10px;
+}
+
+form span {
+    opacity: 0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.errorj label {
+    color: #d01b2d;
+}
+
+.errorj span {
+    opacity: 1;
+    font-size: 14px;
+    color: #d01b2d;
+}
+
+.errorj img {
+    opacity: 1;
+}
+
+.errorj input, .errorj #upload {
+    border-color: #d01b2d;
+}
+
+.submit input{
+    display: block;
+    border-radius: 50px;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1;
+    letter-spacing: 2px;
+    width: 40%;
+    margin: 0 auto;
+    background-color:rgb(100, 5, 11);
+
+}
+
+.submit input:hover{
+    cursor: pointer;
+    background-image: url(images/TEXTURE_FIBRACARBONIO.jpg);
+    background-size: cover;
+}
+
+.signup{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+a:hover{
+    cursor: pointer;
+}

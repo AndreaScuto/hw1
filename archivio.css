@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(43, 44, 48);
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+  }
+  
+  header nav{
+      width: 100%;;    
+      background-color: rgb(100, 5, 11);
+      border-bottom: 2px solid black;
+    }
+    
+  #links a:visited { 
+    text-decoration: none; 
+      color: white; 
+     }
+    
+ .nav-container{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+      
+  #links a{
+      margin: 15px;
+      text-decoration: none;
+    }
+    
+    @media (max-width: 500px) {
+      #links {
+        display: none;
+      }
+    }
+    
+    #separator{
+      display: inline-block;
+      height: 16px;
+      width: 1px;
+      background: currentColor;
+    }
+    
+    #menu {
+      display: none;
+    }
+    
+    #menu div {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 5px 0;
+    }
+    
+    @media (max-width: 500px) {
+      #menu {
+        display: block;
+      }
+    }
+    
+    .button{
+    border-radius: 30px;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+    }
+  
+    .button:hover{
+      background-image: url(images/TEXTURE_FIBRACARBONIO.jpg);
+      background-size: cover;
+      font-weight: bold;
+      border: 2px solid black;
+    }
+  
+    h1{
+        font-size: 30px;
+        font-weight: 300;
+    }
+  
+    .Titolo{
+      display: flex;
+      padding-top: 10%;
+      justify-content: center;
+
+    }
+  
+    #container{
+      width: 100%;
+      height: 50%;
+    }
+
+    input{
+      color: #fff;
+      background-color: rgb(43, 44, 48);
+    }
+    
+    select{
+      color: #fff;
+      background-color: rgb(43, 44, 48);
+    }
+    
+    #Box {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      position: relative;
+      width: calc(70% - 40px);
+      background-color: rgb(100, 5, 11);
+      padding: 20px;
+      margin: 30px auto 30px auto;
+      border-radius: 20px;
+      flex-wrap: wrap;
+      box-shadow: 0 0px 20px rgb(255, 0, 0);
+  }
+
+    #contenitoreRICERCA {
+      display: none;
+    }
+
+    .formArchivio {
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-bottom: 10px;
+    }
+
+    #tabella {
+      width: 100%;
+      background-color: rgb(43, 44, 48);
+      border: 2px solid black;
+      margin-top: 10px;
+    }
+
+    .BannerGare {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0px 0px 0px;
+      padding: 20px 0px 20px 0px;
+      width: 100%;
+      background-color: rgb(100, 5, 11);
+      box-shadow: 0 0px 20px rgb(255, 0, 0);
+    }
+    .BannerGare:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    
+    p {
+      margin-left: 20px;
+    }
+  
+    h2{
+      margin-left: 20px;
+    }
+  
+    @media (max-width: 800px) {
+      
+      #tabella {
+        font-size: 10px;
+      }
+
+      #Box {
+        width: calc(80% - 40px);
+      }
+
+      #logo {
+        width: 100px;
+        height: 100px;
+      }
+
+    }
+
+    @media (max-width: 500px) {
+      
+
+      #logo {
+        display: none;
+      }
+
+      #tabella {
+        font-size: 9px;
+      }
+
+    }
+   
